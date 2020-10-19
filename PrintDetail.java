@@ -12,8 +12,12 @@ public class Test {
 		System.out.println( "please enter your age :- ");
 		String a = in.nextLine();
 		
+		System.out.println( "please enter your roll no :- ");
+		String r = in.nextLine();
+		
 		System.out.println("Your name is " + s);
 		System.out.println("Your age is " + a);
+		System.out.println("Your roll no  is " + r);
 
 	}
 
