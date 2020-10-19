@@ -12,6 +12,10 @@ public class InputScanner {
 		System.out.println("You entered integer " + a);
 		float b = in.nextFloat();
 		System.out.println("You entered float " + b);
+		
+		System.out.println("Closing Scanner...");
+		in.close();
+		System.out.println("Scanner is Closed now .");
 
 	}
 
